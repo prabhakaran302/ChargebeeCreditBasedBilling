@@ -1,0 +1,11 @@
+Customer: C1
+Credits: 495
+Transactions:
+Transaction(type=PURCHASE, description=Standard, success=true, creditLeft=250)
+Transaction(type=USAGE, description=S1 x 5, success=true, creditLeft=245)
+Transaction(type=USAGE, description=S1 x 200, success=true, creditLeft=45)
+Transaction(type=USAGE, description=S1 x 40, success=true, creditLeft=5)
+Transaction(type=USAGE, description=S1 x 6, success=false, creditLeft=5)
+Transaction(type=USAGE, description=S1 x 5, success=true, creditLeft=0)
+Transaction(type=PURCHASE, description=Premium, success=true, creditLeft=500)
+Transaction(type=USAGE, description=S1 x 5, success=true, creditLeft=495)
